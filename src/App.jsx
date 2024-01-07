@@ -10,6 +10,7 @@ import Testimonial from './components/Testimonial'
 import Achiements from './components/achiements'
 
 
+
 function App() {
 
 
@@ -17,7 +18,6 @@ function App() {
 
     <>
       <NavBar />
-
       <HeroSection />
       <Logos />
       <Features />
