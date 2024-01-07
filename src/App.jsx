@@ -1,4 +1,5 @@
 import './App.css'
+import Achivement from './components/Achivement'
 import CtoA from './components/CtoA'
 import Features from './components/Features'
 import Features2 from './components/Features2'
@@ -7,7 +8,7 @@ import HeroSection from './components/HeroSection'
 import Logos from './components/ListLogos'
 import NavBar from './components/Navbar'
 import Testimonial from './components/Testimonial'
-import Achiements from './components/achiements'
+
 
 
 
@@ -22,7 +23,7 @@ function App() {
       <Logos />
       <Features />
       <Features2 />
-      <Achiements />
+      <Achivement />
       <Testimonial />
       <CtoA />
       <Footer />

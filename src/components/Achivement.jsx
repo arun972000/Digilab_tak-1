@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Achiements = () => {
+const Achivement = () => {
     let settings = {
         dots: true,
         infinite: true,
@@ -79,4 +79,4 @@ const Achiements = () => {
     )
 }
 
-export default Achiements
+export default Achivement
