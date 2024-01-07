@@ -1,0 +1,26 @@
+.image-container {
+    padding: 40px 40px;
+    border: none;
+    outline: none;
+}
+
+.image-container:focus {
+    outline: none;
+}
+
+.image-container img {
+    height: 250px;
+    width: 250px;
+
+
+    @media (max-width: 1200px) {
+
+        height: 200px;
+        width: 200px;
+    }
+
+    @media (max-width: 768px) {
+        height: 150px;
+        width: 150px;
+    }
+}

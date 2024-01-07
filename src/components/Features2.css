@@ -1,0 +1,126 @@
+.phone-container {
+    display: flex;
+    padding: 33px 87px 0px 39px;
+    align-items: center;
+    background: #FAF9FF;
+    height: 530px;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .phone-container {
+        height: 284px;
+    }
+}
+
+.phone-container img {
+    align-self: flex-end;
+
+   
+}
+
+.cart-container {
+    display: flex;
+    padding: 107px 76.323px 107.96px 76px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FAF9FF;
+ 
+}
+
+.stick-image {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .stick-image {
+        top: 120px; 
+        left: 40px; 
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .stick-image {
+        top: 100px; 
+        left: 100px; 
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .stick-image {
+        top: 20px;
+        left:30px; 
+    }
+}
+.cart-content {
+    border-radius: 12.984px;
+    border: 1px solid #C598FF;
+    background: #FFF;
+    display: inline-flex;
+    padding: 25.968px;
+    flex-direction: column;
+    gap: 6.492px;
+   
+}
+
+.f2-h4 {
+    color: var(--Neutral-50, #121417);
+    font-family: "Manrope", sans-serif;
+    font-size: 19.476px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.968px;
+}
+
+.f2-p1 {
+    color: var(--Neutral-400, #5A6475);
+    font-family: "Inter", sans-serif;
+    font-size: 12.984px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.23px;
+    margin-bottom: 27;
+}
+
+.f2-h2 {
+    color: var(--Neutral-50, #121417);
+    font-family: "Manrope", sans-serif;
+    font-size: 32.46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38.952px;
+}
+
+.f2-p2 {
+    color: var(--Neutral-400, #5A6475);
+    font-family: "Inter", sans-serif;
+    font-size: 12.984px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.23px;
+    margin-bottom: 27;
+}
+
+.usd {
+    color: var(--Neutral-50, #121417);
+    font-family: "Inter", sans-serif;
+    font-size: 12.984px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.23px;
+}
+
+.f2-headFlex {
+    display: flex;
+    align-items: center;
+    gap: 8.927px;
+}

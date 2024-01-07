@@ -1,0 +1,146 @@
+.feature-overall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.feature-content {
+    display: flex;
+ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
+        /* Adjust font size or any other styles for smaller screens */
+        display: flex;
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    @media screen and (max-width: 640px) {
+        display: flex;
+        width: 343px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+}
+
+
+.feature-h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    color: var(--Neutral-50, #121417);
+  
+
+    @media screen and (max-width: 640px) {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+    }
+}
+
+.feature-p1 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--Neutral-400, #5A6475);
+    width: 576px;
+    margin: 0;
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
+ 
+        width: 640px;
+       
+    }
+
+    @media screen and (max-width: 640px) {
+
+        width: 323px;
+
+    }
+
+}
+
+.feature-p2 {
+    color: var(--Pri-Purple-400, #582066);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+
+}
+
+.feature-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.feature-icon {
+    margin-left: 50;
+}
+
+feature-h3 {
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    width: 352px;
+}
+
+feature-p3 {
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 320px;
+}
+
+.feature-box {
+    padding: 16px;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .feature-overall {
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 640px) {
+    .feature-overall {
+        display: flex;
+       
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+}
